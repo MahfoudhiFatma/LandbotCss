@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('fonts/GT-Walsheim-Medium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/GT-Walsheim-Medium.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/GT-Walsheim-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/GT-Walsheim-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+         /*url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+html{
+    background-color: #281e65;
+}
+
+body{
+    
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient(132deg,#e43b9d,#6459ab);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 10s ease infinite;
+
+
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    background-color:#d93b83;
+}
+.landbot-header{
+    display: flex;
+    justify-content:  space-between;
+    margin: 29px;
+    flex-wrap: wrap;
+
+}
+
+.landbot-logo{
+    color: white;
+}
+
+.header-menu{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.active{
+    margin-left: 35px;
+    border: 2px solid white;
+    padding: 12px 26px;
+    border-radius: 100px;
+    
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin:auto;
+}
+.message{
+    font-family:"GTWalsheim";
+    color: #4e2c6a;
+    border: 1px solid white;
+    background-color: white;
+    padding: 19px;
+    border-radius: 22px;
+    font-size: 17px;
+    margin: 3px; 
+}
+.message-img{
+    border-radius: 22px;
+    width: 259px;
+    height: 108px;
+    margin: 3px;
+}
+.message-container-logo{
+    display:flex;
+    align-items:center;
+    margin: 3px;   
+
+}
+.message-logo{
+    width: 50px;
+    height:40px;
+    margin-left: -70px;
+    margin-right: 10px;
+    
+}
+.message-option{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 3px;
+}
+
+.message-option-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.option-btn{
+    border: 2px solid #bc0044;
+    background-color: rgb(255, 30, 148);
+    border-radius: 3px;
+    width: 150px;
+    padding: 20px 25px;
+    display: inline-block;
+    text-align: center;
+}
+.message-rights{
+    color: white;
+    margin-left:10px;
+    margin-bottom: 50px;
+    
+}
